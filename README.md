@@ -1,228 +1,223 @@
-📈 Marketing Science AI + GenAI Platform
+# 📈 Marketing Science AI + GenAI Platform
 
-An end-to-end Marketing Data Science + Generative AI decision intelligence platform that transforms campaign data into predictive insights, budget optimization strategies, and executive-ready narratives.
+An end-to-end **Marketing Data Science + Generative AI decision intelligence platform** that transforms campaign data into predictive insights, budget optimization strategies, and executive-ready narratives.
 
-Built to simulate how modern Marketing Science / Growth Analytics teams operate — combining deterministic modeling with GenAI storytelling for stakeholder decision support.
+Built to simulate how modern **Marketing Science / Growth Analytics teams** operate — combining deterministic modeling with GenAI storytelling for stakeholder decision support.
 
-🚀 Platform Overview
+---
+
+## 🚀 Platform Overview
 
 This platform answers high-impact marketing leadership questions:
 
-Which channels drive pipeline and revenue?
+- Which channels drive pipeline and revenue?
+- Where is funnel leakage happening?
+- How should we reallocate budget for higher ROI?
+- What revenue can we forecast?
+- What actions should we take next?
+- What changed vs last period — and why?
 
-Where is funnel leakage happening?
+---
 
-How should we reallocate budget for higher ROI?
+## 🧩 Core Modules
 
-What revenue can we forecast?
-
-What actions should we take next?
-
-What changed vs last period — and why?
-
-🧩 Core Modules
-1️⃣ Data Health & Trust Layer
+### 1️⃣ Data Health & Trust Layer
 
 Stakeholder-friendly QA before analytics or modeling.
 
-Capabilities
+**Capabilities**
 
-Missingness detection
+- Missingness detection  
+- KPI sanity validation (CTR, CPC, CPL)  
+- Duplicate checks  
+- Date coverage validation  
+- Outlier detection (robust z-score)  
+- Channel distribution diagnostics  
 
-KPI sanity validation (CTR, CPC, CPL)
+**Why it matters**
 
-Duplicate checks
-
-Date coverage validation
-
-Outlier detection (robust z-score)
-
-Channel distribution diagnostics
-
-Why it matters
 Ensures forecasting, MMM, and GenAI insights are built on reliable data.
 
-2️⃣ Performance Intelligence Dashboard
+---
+
+### 2️⃣ Performance Intelligence Dashboard
 
 Executive view of marketing performance.
 
-Analytics included
+**Analytics included**
 
-Spend vs Revenue trends
+- Spend vs Revenue trends  
+- Funnel conversion tracking  
+- ROAS / CPL / CPSQL metrics  
+- Channel performance benchmarking  
+- Region & segment breakdowns  
+- Time-window filtering  
 
-Funnel conversion tracking
+---
 
-ROAS / CPL / CPSQL metrics
-
-Channel performance benchmarking
-
-Region & segment breakdowns
-
-Time-window filtering
-
-3️⃣ Predictive Growth Forecasting
+### 3️⃣ Predictive Growth Forecasting
 
 Machine-learning pipeline to anticipate demand and pipeline generation.
 
-Modeling approach
+**Modeling approach**
 
-Time-split training
+- Time-split training  
+- Gradient boosting regression  
+- Seasonality features  
+- Funnel lag signals  
+- Baseline vs model benchmarking  
 
-Gradient boosting regression
+**Outputs**
 
-Seasonality features
+- Revenue forecasts  
+- MQL / SQL predictions  
+- Forecast accuracy metrics  
+- Error diagnostics  
 
-Funnel lag signals
+---
 
-Baseline vs model benchmarking
-
-Outputs
-
-Revenue forecasts
-
-MQL / SQL predictions
-
-Forecast accuracy metrics
-
-Error diagnostics
-
-4️⃣ Marketing Mix Modeling (MMM)
+### 4️⃣ Marketing Mix Modeling (MMM)
 
 Channel contribution and diminishing-returns modeling.
 
-Techniques
+**Techniques**
 
-Adstock transformations
+- Adstock transformations  
+- Saturation curves  
+- Ridge regression attribution  
+- Channel ROI estimation  
 
-Saturation curves
+**Business outcomes**
 
-Ridge regression attribution
+- Contribution weighting  
+- Budget efficiency diagnostics  
+- Scenario planning  
 
-Channel ROI estimation
+---
 
-Business outcomes
-
-Contribution weighting
-
-Budget efficiency diagnostics
-
-Scenario planning
-
-5️⃣ Budget Optimization Engine
+### 5️⃣ Budget Optimization Engine
 
 Simulates strategic reallocation scenarios.
 
-Capabilities
+**Capabilities**
 
-Identifies over-invested channels
+- Identifies over-invested channels  
+- Detects underfunded high-ROI channels  
+- Recommends reallocation %  
+- Quantifies expected impact  
 
-Detects underfunded high-ROI channels
+---
 
-Recommends reallocation %
-
-Quantifies expected impact
-
-6️⃣ GenAI Stakeholder Insights ✨
+### 6️⃣ GenAI Stakeholder Insights ✨
 
 Natural-language marketing intelligence powered by free LLMs.
 
 Stakeholders can ask:
 
-“What changed vs last period?”
+- “What changed vs last period?”
+- “Where should we reallocate budget?”
+- “Which channels are inefficient?”
+- “What actions improve ROI fastest?”
 
-“Where should we reallocate budget?”
+**Features**
 
-“Which channels are inefficient?”
+- Preset executive questions  
+- Custom Q&A chat  
+- Executive summary format  
+- Action recommendations  
+- Risk caveats  
+- Funnel diagnostics  
 
-“What actions improve ROI fastest?”
+**Safety guardrails**
 
-Features
+- Aggregated metrics only  
+- No row-level exposure  
+- Privacy-safe storytelling  
 
-Preset executive questions
+---
 
-Custom Q&A chat
-
-Executive summary format
-
-Action recommendations
-
-Risk caveats
-
-Funnel diagnostics
-
-Safety guardrails
-
-Aggregated metrics only
-
-No row-level exposure
-
-Privacy-safe storytelling
-
-🧠 Example GenAI Output Structure
+## 🧠 Example GenAI Output Structure
 
 Every answer is formatted for leadership:
 
-What happened
-Why it happened
-What to do next (3 actions)
-Risks / caveats
-
+```
+What happened  
+Why it happened  
+What to do next (3 actions)  
+Risks / caveats  
+```
 
 Designed for VP / Director consumption — not analysts.
 
-🛠️ Tech Stack
-Layer	Tools
-App Framework	Streamlit
-Data	Pandas, NumPy
-Visualization	Plotly
-Modeling	Scikit-learn
-MMM	Ridge + Adstock
-GenAI	OpenRouter (Free LLMs)
-Deployment	Streamlit Cloud
-📊 Dataset Scope
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Tools |
+|------|------|
+| App Framework | Streamlit |
+| Data | Pandas, NumPy |
+| Visualization | Plotly |
+| Modeling | Scikit-learn |
+| MMM | Ridge + Adstock |
+| GenAI | OpenRouter (Free LLMs) |
+| Deployment | Streamlit Cloud |
+
+---
+
+## 📊 Dataset Scope
 
 Mock marketing dataset simulating:
 
-Multi-channel campaigns
+- Multi-channel campaigns  
+- Funnel progression  
+- Pipeline value  
+- Revenue attribution  
+- Regional segmentation  
+- Time-series spend signals  
 
-Funnel progression
+---
 
-Pipeline value
-
-Revenue attribution
-
-Regional segmentation
-
-Time-series spend signals
-
-☁️ Live Deployment
+## ☁️ Live Deployment
 
 Deployed via Streamlit Cloud.
 
-Main entry point
+**Main entry point**
 
+```
 streamlit_app/Home.py
+```
 
-🔑 GenAI Setup
+---
+
+## 🔑 GenAI Setup
 
 Add secret in Streamlit Cloud:
 
+```toml
 OPENROUTER_API_KEY = "your_key"
-
+```
 
 Supports free models like:
 
-Mistral 7B
+- Mistral 7B  
+- Llama 3  
+- Gemma  
 
-Llama 3
+---
 
-Gemma
+## ▶️ Run Locally
 
-▶️ Run Locally
+```bash
 pip install -r requirements.txt
 streamlit run streamlit_app/Home.py
+```
 
-📁 Project Structure
+---
+
+## 📁 Project Structure
+
+```
 marketing-science-ai-genai/
 │
 ├── streamlit_app/
@@ -239,38 +234,42 @@ marketing-science-ai-genai/
 │
 ├── requirements.txt
 └── README.md
+```
 
-💼 Business Impact
+---
+
+## 💼 Business Impact
 
 This platform demonstrates how marketing science teams:
 
-Move beyond dashboards → decision systems
+- Move beyond dashboards → decision systems  
+- Combine ML + MMM + GenAI  
+- Translate data → strategy  
+- Support executive planning  
 
-Combine ML + MMM + GenAI
+---
 
-Translate data → strategy
-
-Support executive planning
-
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 Planned roadmap:
 
-Bayesian MMM
+- Bayesian MMM  
+- Customer LTV modeling  
+- CAC payback forecasting  
+- Incrementality experiments  
+- Multi-touch attribution  
+- Scenario simulation engine  
+- Agentic marketing copilots  
 
-Customer LTV modeling
+---
 
-CAC payback forecasting
+## 👤 Author
 
-Incrementality experiments
-
-Multi-touch attribution
-
-Scenario simulation engine
-
-Agentic marketing copilots
-
-👤 Author
-
-Febin Varghese
+**Febin Varghese**  
 Marketing Data Scientist | AI/GenAI Analytics | Growth Modeling
+
+---
+
+## ⭐ If you find this useful
+
+Star the repo ⭐ — helps others discover Marketing Science AI applications.
